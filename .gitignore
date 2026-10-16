@@ -1,10 +1,3 @@
-# Node.js
-node_modules/
-.env
-.local/
-coverage/
-*.log
-
 # Virtual environment
 venv/
 env/
@@ -29,8 +22,9 @@ __pycache__/
 .idea/
 .vscode/
 
-# Ensure deployment files and weights are tracked
+# Tracked project files
 !app.py
+!README.md
 !requirements.txt
 !packages.txt
 !sample_images/
